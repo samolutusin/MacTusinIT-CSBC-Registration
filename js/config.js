@@ -41,7 +41,7 @@ window.SITE_CONFIG = {
   // "https://script.google.com/macros/s/AKfycb.../exec"
   // While this still says YOUR_APPS_SCRIPT_URL the site runs in PREVIEW MODE
   // (the form works, but nothing is saved or emailed).
-  APPS_SCRIPT_URL: "YOUR_APPS_SCRIPT_URL",
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbyYTnzQRUyCha0DOCOaeLbDQ48hKhCRYi8RaICFMKkt3hzNzigZ0tbUWKpiqB8d5JR-_w/exec",
 
   // How long (in milliseconds) to wait for the server before showing an error.
   REQUEST_TIMEOUT_MS: 45000,
