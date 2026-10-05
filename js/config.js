@@ -73,12 +73,12 @@ window.SITE_CONFIG = {
      =================================================================== */
   COURSES: [
     {
-      name: "YOUR_COURSE_NAME",
-      description: "YOUR_COURSE_DESCRIPTION (one or two sentences about what applicants will learn).",
-      price: "YOUR_COURSE_PRICE",
-      startDate: "YOUR_COURSE_START_DATE",
-      duration: "YOUR_COURSE_DURATION",
-      venue: "YOUR_TRAINING_VENUE (or: Online via Zoom / Google Meet)"
+      name: "Cybersecurity",
+      description: "MacTusinIT 16-Week CYbersecirity Bootcamp.",
+      price: "#25,000 per month",
+      startDate: "08-10-26",
+      duration: "4 Months",
+      venue: "Online via Zoom / Google Meet)"
     }
 
     /* To add a second course, put a comma after the block above and
