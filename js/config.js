@@ -116,7 +116,7 @@ window.SITE_CONFIG = {
   LINKS: {
     // "Return to Homepage" button on the success page goes here.
     // Leave as "" to return to the registration page instead.
-    HOMEPAGE: "YOUR_WEBSITE_URL",
+    HOMEPAGE: "https://samolutusin.github.io/MacTusinIT-CSBC-Registration/",
     FACEBOOK: "",
     INSTAGRAM: "",
     LINKEDIN: "",
