@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 124">
+  <defs>
+    <linearGradient id="fvShield" x1="0.1" y1="1" x2="0.9" y2="0">
+      <stop offset="0" stop-color="#0A3AA8"/>
+      <stop offset="1" stop-color="#2597FF"/>
+    </linearGradient>
+    <linearGradient id="fvShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B2A82"/>
+      <stop offset="1" stop-color="#051247"/>
+    </linearGradient>
+  </defs>
+  <path d="M6 20 L48 8 L90 20 V60 C90 88 70 106 48 116 C26 106 6 88 6 60 Z" fill="url(#fvShield)"/>
+  <path d="M6 60 C6 88 26 106 48 116 C70 106 90 88 90 60 C90 74 72 84 48 84 C24 84 6 74 6 60 Z" fill="url(#fvShade)"/>
+  <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 84 L40 64"/>
+    <path d="M28 98 L62 64 V44"/>
+    <path d="M40 106 L72 74"/>
+  </g>
+  <g fill="#0B47B5" stroke="#fff" stroke-width="4">
+    <circle cx="45" cy="59" r="6"/>
+    <circle cx="62" cy="38" r="6"/>
+    <circle cx="77" cy="69" r="6"/>
+  </g>
+</svg>
