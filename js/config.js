@@ -24,7 +24,7 @@ window.SITE_CONFIG = {
   ORGANISATION_NAME: "MacTusinIT",
 
   // A short line describing what you do (shown under the logo area / footer).
-  TAGLINE: "Cybersecurity Bootcamp",
+  TAGLINE: "Learn · Build · Grow",
 
   // Your logo file. Upload your logo into the "assets" folder and put its
   // file name here. Examples: "assets/logo.png"  or  "assets/logo.svg"
