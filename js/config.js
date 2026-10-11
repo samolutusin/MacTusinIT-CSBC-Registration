@@ -12,6 +12,9 @@
 
    The matching SERVER settings (admin email, Google Sheet ID, meeting link,
    email content) live in the Google Apps Script file (Code.gs).
+
+   IMPORTANT: every course "name" below must be written EXACTLY the same
+   in Code.gs. After editing Code.gs you must Deploy → New version.
    ===================================================================== */
 
 window.SITE_CONFIG = {
@@ -62,8 +65,9 @@ window.SITE_CONFIG = {
   /* ===================================================================
      4. COURSE / TRAINING DETAILS
      ===================================================================
-     Add one block { ... } per course. If you only run ONE course, keep
-     just one block. If you list several, applicants choose from a menu.
+     Five courses from the "New Courses This Week" flyer.
+     Applicants choose from a drop-down. Direct link example:
+       https://samolutusin.github.io/MacTusinIT-CSBC-Registration/?course=AI
 
      IMPORTANT: the course "name" must be written EXACTLY the same here and
      in Code.gs.
@@ -73,25 +77,45 @@ window.SITE_CONFIG = {
      =================================================================== */
   COURSES: [
     {
-      name: "Cybersecurity",
-      description: "MacTusinIT 16-Week CYbersecirity Bootcamp.",
+      name: "AI",
+      description: "Explore the power of Artificial Intelligence. Build smarter.",
       price: "#25,000 per month",
       startDate: "08-10-26",
       duration: "4 Months",
-      venue: "Online via Zoom / Google Meet)"
+      venue: "Online via Zoom / Google Meet"
+    },
+    {
+      name: "Data Analytics",
+      description: "Turn data into meaningful insights. Make informed decisions.",
+      price: "#25,000 per month",
+      startDate: "08-10-26",
+      duration: "4 Months",
+      venue: "Online via Zoom / Google Meet"
+    },
+    {
+      name: "Data Science",
+      description: "Discover patterns. Solve real-world problems. Turn data into impact.",
+      price: "#25,000 per month",
+      startDate: "08-10-26",
+      duration: "4 Months",
+      venue: "Online via Zoom / Google Meet"
+    },
+    {
+      name: "Python Programming",
+      description: "Write. Automate. Build. Code your ideas.",
+      price: "#25,000 per month",
+      startDate: "08-10-26",
+      duration: "4 Months",
+      venue: "Online via Zoom / Google Meet"
+    },
+    {
+      name: "Cyber Security",
+      description: "Protect systems. Defend the digital world. Be a digital guardian.",
+      price: "#25,000 per month",
+      startDate: "08-10-26",
+      duration: "4 Months",
+      venue: "Online via Zoom / Google Meet"
     }
-
-    /* To add a second course, put a comma after the block above and
-       copy this block:
-    ,{
-      name: "YOUR_SECOND_COURSE_NAME",
-      description: "Short description.",
-      price: "YOUR_COURSE_PRICE",
-      startDate: "YOUR_COURSE_START_DATE",
-      duration: "YOUR_COURSE_DURATION",
-      venue: "YOUR_TRAINING_VENUE"
-    }
-    */
   ],
 
   // Optional: pre-select a country in the form (e.g. "Nigeria"). "" = none.
