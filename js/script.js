@@ -271,10 +271,27 @@
   }
 
   function renderCourseInfo(course) {
-    $('#heroCourse').textContent = isSet(course.name) ? course.name : "Training for what's next.";
+    // Front-page headline: use HERO_HEADING from config.js when set, so a
+    // multi-course site does not show the first course name (e.g. "AI").
+    var heading = CFG.HERO_HEADING;
+    if (isSet(heading)) {
+      $('#heroCourse').textContent = heading.trim();
+    } else if (COURSES.length > 1) {
+      $('#heroCourse').textContent = CFG.TAGLINE || "Training for what's next.";
+    } else {
+      $('#heroCourse').textContent = (course && isSet(course.name)) ? course.name : "Training for what's next.";
+    }
+
     var desc = $('#heroDesc');
-    desc.textContent = isSet(course.description) ? course.description :
-      'Practical cybersecurity and technology training for an evolving digital world.';
+    var blurb = CFG.HERO_DESCRIPTION;
+    if (isSet(blurb)) {
+      desc.textContent = blurb.trim();
+    } else if (COURSES.length > 1) {
+      desc.textContent = 'Practical, hands-on technology training. Choose your course in the form below.';
+    } else {
+      desc.textContent = (course && isSet(course.description)) ? course.description :
+        'Practical cybersecurity and technology training for an evolving digital world.';
+    }
 
     var ul = $('#heroFacts');
     ul.innerHTML = '';
@@ -315,6 +332,12 @@
 
     var courseSelect = $('#course');
     courseSelect.innerHTML = '';
+    if (COURSES.length > 1) {
+      var placeholder = document.createElement('option');
+      placeholder.value = '';
+      placeholder.textContent = 'Select a course';
+      courseSelect.appendChild(placeholder);
+    }
     fillSelect(courseSelect, COURSES.map(function (c) {
       return isSet(c.name) ? c.name : 'Cybersecurity & technology training (preview)';
     }));
