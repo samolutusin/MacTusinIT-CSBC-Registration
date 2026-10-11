@@ -29,6 +29,12 @@ window.SITE_CONFIG = {
   // A short line describing what you do (shown under the logo area / footer).
   TAGLINE: "Learn · Build · Grow",
 
+  // Front-page headline and supporting line (under the organisation name).
+  // Set these so the hero does NOT show the first course name (e.g. "AI").
+  // Leave as "" to fall back to the selected course name (single-course sites).
+  HERO_HEADING: "Your future in tech starts here",
+  HERO_DESCRIPTION: "Practical, hands-on technology training. Pick your course in the form below and start your registration.",
+
   // Your logo file. Upload your logo into the "assets" folder and put its
   // file name here. Examples: "assets/logo.png"  or  "assets/logo.svg"
   // (It must be a file inside this website's "assets" folder. For security,
