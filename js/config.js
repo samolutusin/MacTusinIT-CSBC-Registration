@@ -85,32 +85,32 @@ window.SITE_CONFIG = {
     {
       name: "AI",
       description: "Explore the power of Artificial Intelligence. Build smarter.",
-      price: "#25,000 per month",
-      startDate: "08-10-26",
-      duration: "4 Months",
+      price: "#20,000",
+      startDate: "TBD",
+      duration: "^6 Weeks",
       venue: "Online via Zoom / Google Meet"
     },
     {
       name: "Data Analytics",
       description: "Turn data into meaningful insights. Make informed decisions.",
       price: "#25,000 per month",
-      startDate: "08-10-26",
-      duration: "4 Months",
+      startDate: "TBD",
+      duration: "3 Months",
       venue: "Online via Zoom / Google Meet"
     },
     {
       name: "Data Science",
       description: "Discover patterns. Solve real-world problems. Turn data into impact.",
       price: "#25,000 per month",
-      startDate: "08-10-26",
-      duration: "4 Months",
+      startDate: "TBD",
+      duration: "3 Months",
       venue: "Online via Zoom / Google Meet"
     },
     {
       name: "Python Programming",
       description: "Write. Automate. Build. Code your ideas.",
       price: "#25,000 per month",
-      startDate: "08-10-26",
+      startDate: "TBD",
       duration: "4 Months",
       venue: "Online via Zoom / Google Meet"
     },
@@ -118,7 +118,7 @@ window.SITE_CONFIG = {
       name: "Cyber Security",
       description: "Protect systems. Defend the digital world. Be a digital guardian.",
       price: "#25,000 per month",
-      startDate: "08-10-26",
+      startDate: "12-10-26",
       duration: "4 Months",
       venue: "Online via Zoom / Google Meet"
     }
